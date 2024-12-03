@@ -17,12 +17,28 @@ module.exports = {
                 test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
                 use: 'babel-loader'
+            },
+            {
+                test: /\.css$/i,
+                use: ["style-loader",
+                    {
+                        loader: "css-loader",
+                        options: {
+                            modules: {
+                                namedExport: false
+                            },
+                        }
+                    }],
+            },
+            {
+                test: /\.svg$/,
+                loader: 'svg-inline-loader'
             }
         ]
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html'
+            template: './public/index.html'
         })
     ]
 };

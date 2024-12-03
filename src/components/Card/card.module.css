@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
+.card {
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width: 320px;
+}
+
+.title {
+    color: rgba(56, 119, 238, 1);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: block;
+}
+
+.description {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(66, 86, 122, 1);
+    display: block;
+    height: 125px;
+    width: auto;
+    max-width: 400px;
+}

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.mainPage {
+    height: 100%;
+    margin-left: 250px;
+    margin-top: 170px;
+    padding: 0;
+}
+
+
+.titleFirst {
+    font-size: 200px;
+    line-height: 160px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    color: #5d5fef;
+    margin-right: 80px;
+}
+
+.titleSecond {
+    font-size: 200px;
+    line-height: 160px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    color: #ef5da8;
+}
+
+.swiperSlide {
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    display: inline-block;
+}
+
+.linearGradient {
+    height: 120px;
+    width: 5px;
+    background: linear-gradient(180deg, #3877EE -5%, #EF5DA8 85%);
+    margin-right: 78px;
+}
+
+.mainTitle {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    color: rgba(66, 86, 122, 1);
+    height: 120px;
+    max-height: 120px;
+    width: 353px;
+    display: block;
+}
+
+.blockTitleWithGradient {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.mainDates {
+    margin-left: 215px;
+}
+
+.swiperContainer {
+    height: 200px;
+    margin-top: 56px;
+    width: 90%;
+    margin-left: 170px;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+.buttonArrow {
+    background: transparent;
+    border: none ;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.buttonArrow svg {
+    height: 50px;
+    width: 50px;
+}
+
+.text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(66, 86, 122, 1);
+}
+
+.pagination {
+    margin-top: 14px;
+}
+
+.buttonPaginationRight {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: -100px;
+    right: -90%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow:
+            -6px 1px 20px rgba(56, 119, 238, 0.1),
+            2px 3px 20px rgba(56, 119, 238, 0.1);
+}
+
+.buttonPaginationLeft {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: -100px;
+    left: -10%;
+    rotate: 180deg;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow:
+            -6px 1px 20px rgba(56, 119, 238, 0.1),
+            2px 3px 20px rgba(56, 119, 238, 0.1);
+}
+
+.paginationDates {
+    margin-left: 80px;
+}

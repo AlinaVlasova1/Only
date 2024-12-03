@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import MainPage from "./components/MainPage/MainPage";
 
 const App: React.FC = () => {
-    return <div>Hello, world!</div>;
+    return <MainPage></MainPage>;
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
